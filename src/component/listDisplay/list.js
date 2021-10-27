@@ -103,14 +103,6 @@ class List extends Component{
             let row = document.getElementById("user-row") 
             row.parentNode.removeChild(row)
         }
-
-        /*function showUsers(){
-            if (textFieldValue === ''){
-                return <div>{users.map(users => <div id={users.id} key={users.id}>Name: {users.name} | Email: {users.email} | Phone: {users.phone} | City: {users.address.city}</div>)}</div>
-            }
-            return <div>{'hello'}</div>
-        }*/
-
         
         return(
             <div>
